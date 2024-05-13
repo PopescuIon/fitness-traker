@@ -6,6 +6,9 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {provideNativeDateAdapter} from '@angular/material/core';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
     imports: [
@@ -15,8 +18,10 @@ import {MatSidenavModule} from '@angular/material/sidenav';
         MatInputModule,
         MatDatepickerModule,
         MatCheckboxModule,
-        MatSidenavModule
-        
+        MatSidenavModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatListModule
     ],
     exports: [
         MatButtonModule,
@@ -25,8 +30,10 @@ import {MatSidenavModule} from '@angular/material/sidenav';
         MatInputModule,
         MatDatepickerModule,
         MatCheckboxModule,
-        MatSidenavModule
-
+        MatSidenavModule,
+        MatToolbarModule,
+        MatIconModule,
+        MatListModule
     ],
     providers:[
         provideNativeDateAdapter()
